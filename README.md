@@ -36,6 +36,6 @@ git push -u origin master
 4. **modified** - Статус файла, в котором были добавлены изменения, но не были закоммичены.  
 
 ## **Откат назад**  
-**git restore --staged <file>** переведёт файл из staged обратно в modified или untracked.
-**git reset --hard <commit hash>** «откатит» историю до коммита с хешем <hash>. Более поздние коммиты потеряются!
+**git restore --staged <file>** переведёт файл из staged обратно в modified или untracked.  
+**git reset --hard <commit hash>** «откатит» историю до коммита с хешем <hash>. Более поздние коммиты потеряются!  
 **git restore <file>** «откатит» изменения в файле до последней сохранённой (в коммите или в staging) версии
